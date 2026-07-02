@@ -1,0 +1,26 @@
+{
+  "model_name": "densenet121",
+  "accuracy": 0.968667,
+  "precision": 0.946633,
+  "recall": 0.993333,
+  "f1": 0.969421,
+  "latency_ms_per_image": 11.819474,
+  "model_size_mb": 27.111,
+  "epochs": 2,
+  "batch_size": 32,
+  "image_size": 224,
+  "device": "cuda",
+  "train_samples": 7000,
+  "val_samples": 1500,
+  "test_samples": 1500,
+  "confusion_matrix": [
+    [
+      708,
+      42
+    ],
+    [
+      5,
+      745
+    ]
+  ]
+}
